@@ -1,0 +1,91 @@
+body { 
+	background-color: #f2e6d9; 
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 2%;
+	margin-bottom: 2%;
+} 
+
+#col_left { 
+	width: 20%; 
+	float: left; 
+	margin-left: 2%;
+	margin-right: 3%;
+} 
+
+#col_left img{ 
+	width: 100%; 
+	height: auto; 
+} 
+
+#col_left p { 
+	background-color:#e58585; 
+	border-radius: 10px; 
+} 
+
+#col_right {
+	width: 73%;
+	float: left;
+	shape-margin: 2%;
+}
+
+h1 { 
+	font-size: 40px; 
+	margin: 10px 5px; 
+} 
+
+h2 { 
+	border-bottom: solid 2px #a7b3c6; 
+	font-size: 25px; 
+	padding-bottom: 5px; 
+	color: #388099; 
+} 
+
+h3{ 
+	color: #388099; 
+} 
+
+p { 
+	padding: 5px; 
+} 
+
+#titulo_carrera { 
+	font-size: 25px; 
+	font-weight: bold; 
+	color: #4895af; 
+} 
+
+.datos_personales, .idioma { 
+	font-weight: bold; 
+} 
+
+#presentacion li { 
+	border-bottom: 1px dotted red; 
+	margin-bottom: 1%; padding: 2px; 
+} 
+
+.seccion { 
+	background-color: #fcfdff; 
+	border-radius: 10px; 
+	margin-bottom: 10px; 
+	padding: 5px 30px 20px 30px; 
+	overflow: hidden;
+} 
+
+.imagen_portfolio { 
+ 	height: 80px;
+ 	width: 80px;
+ 	margin-right: 3%;
+}
+
+.red_social {
+ 	height: 40px;
+ 	width: 40px;
+ 	margin-left: 3%;
+ 	float: left;
+}
+
+#portfolio li, #redes_sociales li {
+	float: left;
+	margin-right: 5%;
+	list-style: none;
+}
